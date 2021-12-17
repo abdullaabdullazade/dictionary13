@@ -19,4 +19,4 @@ async def on_message(msg):
                 break
 
 
-Bot.run('OTIxMzY1NTE5MzY4NTkzNDA5.Ybx2gQ.XfrXzbzYjlJWHhsBHrWNiOyt-wQ')
+Bot.run('OTE5MzM0MzQ2NTEzNTg0MTc5.YbUS1A.1P1VwBt7AXU9mscXkXFxaefFxvg')
