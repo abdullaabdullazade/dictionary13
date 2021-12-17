@@ -14,7 +14,7 @@ async def on_ready():
 async def on_message(msg):
     with open("Botun lügət sözləri.txt", "r",encoding="utf-8") as a:
         for i in a:
-            if i.lower() in  msg.content.lower():
+            if msg.content.lower() in i.lower():
                 await msg.author.send(i)
                 break
 
