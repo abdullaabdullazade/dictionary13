@@ -1,1 +1,1 @@
-worker: dictionary.py
+worker: python dictionary.py
