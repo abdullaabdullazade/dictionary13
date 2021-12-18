@@ -12,11 +12,9 @@ async def on_ready():
 
 @Bot.event
 async def on_message(msg):
- with open("123","r",encoding="utf-8") as a:
+ with open("123.txt","r",encoding="utf-8") as a:
    for i in a:
             if msg.content.lower() in i.lower():
                 await msg.author.send(i)
-                break
-
-
-Bot.run('OTE5MzM0MzQ2NTEzNTg0MTc5.YbUS1A.1P1VwBt7AXU9mscXkXFxaefFxvg')
+                
+Bot.run('OTIxNzY3MjQ2MTk4NjE2MTI0.Yb3spQ.HQGToTS-KPJrK8qubT64O0KhKAw')
